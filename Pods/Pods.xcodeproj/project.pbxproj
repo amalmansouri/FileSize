@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B039D7C05445DFFBAD4949D434659D /* NIKFontAwesomeIconFactory+OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 137682F99740660B1254698EA99C64EC /* NIKFontAwesomeIconFactory+OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		084C52EE36FBB19195115D9E7D5F3086 /* NIKFontAwesomeImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2FA5B3BA101BC5755AE55CCC9F504 /* NIKFontAwesomeImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19605C4E2AE4047084A48A5917826CD5 /* NIKFontAwesomePathRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A374AB64AAB4AD82B0631F3746AE228F /* NIKFontAwesomePathRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		22B3B59EE7ABFC767DA950EA0788C730 /* NIKFontAwesomeIconFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E3388208F79177C0648128228CF535 /* NIKFontAwesomeIconFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23265462C4B94A142F4536103F113A9F /* NIKFontAwesomeIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 629EBCC22B34C0FAC27E40AC4164BFDA /* NIKFontAwesomeIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25FA3F3E7C400423BC45D6332DEFA98A /* NIKFontAwesomeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD44DB101755F8969A89E955B2FE53E /* NIKFontAwesomeImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2FF5076E9781F9F48049F68D26CF0A8D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24D810065A7EA0FAC3021F8A962D3CC /* Cocoa.framework */; };
+		37B91B9CDBA5FCCD18A40F6AF54A3359 /* NIKFontAwesomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C522CEDD3822A6A746B51B2D4765673 /* NIKFontAwesomeButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		433FF80A48D274914D538C7EC2F4BCA9 /* Pods-FileSize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0D33C230D475785205C229FCA5FAA9 /* Pods-FileSize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4014C926463760932DCE6C3B799F05 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = A11180F1DFE397BF2142D0D4C7CAB5A4 /* FontAwesome.otf */; };
+		4DEB9EBC749F742379FE8CC6FDCB10DC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24D810065A7EA0FAC3021F8A962D3CC /* Cocoa.framework */; };
+		52E5759346259174F2A2BBC137D9D2A5 /* FontAwesomeIconFactory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9618349FD56B5018031A349276FC33D /* FontAwesomeIconFactory-dummy.m */; };
+		58626CFF18D84EC4F63F34D4ED2746F0 /* Pods-FileSizeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17457FD4B72B0C813FA830DA57CC6EA3 /* Pods-FileSizeUITests-dummy.m */; };
+		6991926ABBBE98AD15C4DDF9D079A6A9 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAC40424C7DF5CD6BBA6502E5339BEF /* ApplicationServices.framework */; };
+		6BE6A9ADB8D52795E8C085D8E6179553 /* Pods-FileSizeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE27587D4F8BBE2427831E30CCB6D0C /* Pods-FileSizeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		885ECD52B1E6994FAA4AA1EC1E5E13D1 /* NIKFontAwesomeIconFactory+iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CB410FBD5973CA60031A76EF83D9E0 /* NIKFontAwesomeIconFactory+iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4BEE1BB1968A681EF2E1986C9F6118 /* NIKFontAwesomeIconFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ECE71AED4864FB316D0B17C847DF4C /* NIKFontAwesomeIconFactory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8F11A24FB6FE82E62DADF02D8AD54D0F /* NIKFontAwesomePathFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A67995615D99891DF3B48AA1D195D946 /* NIKFontAwesomePathFactory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A2A1525E8AF63B535B2325E391751115 /* NIKFontAwesomeIconTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = A60D4F6524F0EA061FAB7E725BFBFBC9 /* NIKFontAwesomeIconTraits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A330074674B939198FB1F40816257B9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEAEAD32C34750D444F1793483C9818 /* CoreGraphics.framework */; };
+		B18D2246E4DA1F6137B469639964052A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24D810065A7EA0FAC3021F8A962D3CC /* Cocoa.framework */; };
+		B645B311C74E5F305A1403ABF0836005 /* NIKFontAwesomeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB209AAF0F50608C00010CA67E99F20 /* NIKFontAwesomeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6C7BF9DDAE5602F6F96A72A79472D56 /* FontAwesomeIconFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3753FE2466E8177399F362046F0AAE8B /* FontAwesomeIconFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B04EE42F7C4A4736D28C9BC4007D10 /* NIKFontAwesomeIconTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3B76F9E5E629F0FB3308ADAB9942D9 /* NIKFontAwesomeIconTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA5CFF7252B0834125C43A3E3DD67596 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24D810065A7EA0FAC3021F8A962D3CC /* Cocoa.framework */; };
+		BC6975FA9985BB9A04F73AEC604B219C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E151901762408419F0664CFEA37FC5 /* CoreText.framework */; };
+		C31C1A8F42CB9499AA1EB10C49F435C7 /* Pods-FileSizeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5521D059E6F4E0C2929A9C47AB0CA9B1 /* Pods-FileSizeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF5D866B24E57E5E4DFBC00F8B0902BE /* Pods-FileSize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D40F38464C0A6DBBCE9CACAA08394AC /* Pods-FileSize-dummy.m */; };
+		E87533C66409ADF783C64B2A48016AE6 /* NIKFontAwesomePathRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 30292CB8353F0716EA3C6AC7B8FC44EC /* NIKFontAwesomePathRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D5D7BF33B95E758DECB12634506795 /* NIKFontAwesomePathFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEB1308524FD068A2EFE2DB888B8C06 /* NIKFontAwesomePathFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5DD29B060E4AF36F3F6987BD34A70F5 /* FontAwesomeIconFactory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A18FFEAE668ED8AAF351C204434124C2 /* FontAwesomeIconFactory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC76B14746C377E84DB36BBEEE223D84 /* Pods-FileSizeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9445CA5CB9A3D91136F705D41A1838 /* Pods-FileSizeTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34D37B0FAE9B8EB787988B0FD13C7D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0262D247D75FA64F450A78B8F38FE47D;
+			remoteInfo = FontAwesomeIconFactory;
+		};
+		3D194A1BEDB5A1C5E5DF82E73E63506E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71506C459209509BA8C61EE8F319B7B1;
+			remoteInfo = "Pods-FileSize";
+		};
+		90A70C49E869CDAC52073A220A375612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71506C459209509BA8C61EE8F319B7B1;
+			remoteInfo = "Pods-FileSize";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06AB66EDBC1D0C308F6BEF162B1D8D6E /* FontAwesomeIconFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeIconFactory.framework; path = FontAwesomeIconFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD44DB101755F8969A89E955B2FE53E /* NIKFontAwesomeImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeImageView.m; path = FontAwesomeIconFactory/OSX/NIKFontAwesomeImageView.m; sourceTree = "<group>"; };
+		130102D4535A2095C0EFF38A442C93BE /* Pods-FileSize-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileSize-acknowledgements.markdown"; sourceTree = "<group>"; };
+		137682F99740660B1254698EA99C64EC /* NIKFontAwesomeIconFactory+OSX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NIKFontAwesomeIconFactory+OSX.h"; path = "FontAwesomeIconFactory/NIKFontAwesomeIconFactory+OSX.h"; sourceTree = "<group>"; };
+		139178AA88A54BD6A8750971FABF8EBA /* Pods-FileSizeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FileSizeUITests.modulemap"; sourceTree = "<group>"; };
+		14F3817F2624C58081E9543A55360E51 /* Pods-FileSize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileSize.debug.xcconfig"; sourceTree = "<group>"; };
+		17457FD4B72B0C813FA830DA57CC6EA3 /* Pods-FileSizeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileSizeUITests-dummy.m"; sourceTree = "<group>"; };
+		1FEAEAD32C34750D444F1793483C9818 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		216B4B48F9CB369EE56FDC32B9588CF7 /* Pods-FileSize-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileSize-resources.sh"; sourceTree = "<group>"; };
+		2228D18CE3867D19C6641365172E5F6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23ECE71AED4864FB316D0B17C847DF4C /* NIKFontAwesomeIconFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeIconFactory.m; path = FontAwesomeIconFactory/NIKFontAwesomeIconFactory.m; sourceTree = "<group>"; };
+		2BB209AAF0F50608C00010CA67E99F20 /* NIKFontAwesomeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeButton.h; path = FontAwesomeIconFactory/OSX/NIKFontAwesomeButton.h; sourceTree = "<group>"; };
+		2D40F38464C0A6DBBCE9CACAA08394AC /* Pods-FileSize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileSize-dummy.m"; sourceTree = "<group>"; };
+		30292CB8353F0716EA3C6AC7B8FC44EC /* NIKFontAwesomePathRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathRenderer.h; path = FontAwesomeIconFactory/NIKFontAwesomePathRenderer.h; sourceTree = "<group>"; };
+		3753FE2466E8177399F362046F0AAE8B /* FontAwesomeIconFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeIconFactory.h; path = FontAwesomeIconFactory/FontAwesomeIconFactory.h; sourceTree = "<group>"; };
+		37D56870BCE5D3ED581DC43E2766DA17 /* Pods-FileSizeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileSizeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		40A34EDB187E1BB06E86734AB9CA2B3D /* FontAwesomeIconFactory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesomeIconFactory.modulemap; sourceTree = "<group>"; };
+		54D50921384D6AE8BA9D6A98C20B5A8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5521D059E6F4E0C2929A9C47AB0CA9B1 /* Pods-FileSizeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileSizeUITests-umbrella.h"; sourceTree = "<group>"; };
+		56E151901762408419F0664CFEA37FC5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		5A84FD9339368BE078BA25B02C04669B /* Pods-FileSizeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileSizeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61C7844E28BD8C09A99747E0307604F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629EBCC22B34C0FAC27E40AC4164BFDA /* NIKFontAwesomeIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIcon.h; path = FontAwesomeIconFactory/NIKFontAwesomeIcon.h; sourceTree = "<group>"; };
+		690E1F4A4B1FDD84C1FAAC86302DC9E0 /* Pods-FileSizeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileSizeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		691BB36D819FF58D6933A49BDFCB2270 /* Pods-FileSizeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileSizeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AE27587D4F8BBE2427831E30CCB6D0C /* Pods-FileSizeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileSizeTests-umbrella.h"; sourceTree = "<group>"; };
+		72999B616D4AFA906788EA4BA3F1B66E /* Pods-FileSizeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileSizeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77F2FA5B3BA101BC5755AE55CCC9F504 /* NIKFontAwesomeImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeImageView.h; path = FontAwesomeIconFactory/OSX/NIKFontAwesomeImageView.h; sourceTree = "<group>"; };
+		7CAC40424C7DF5CD6BBA6502E5339BEF /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/ApplicationServices.framework; sourceTree = DEVELOPER_DIR; };
+		7EEB1308524FD068A2EFE2DB888B8C06 /* NIKFontAwesomePathFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathFactory.h; path = FontAwesomeIconFactory/NIKFontAwesomePathFactory.h; sourceTree = "<group>"; };
+		87CB410FBD5973CA60031A76EF83D9E0 /* NIKFontAwesomeIconFactory+iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NIKFontAwesomeIconFactory+iOS.h"; path = "FontAwesomeIconFactory/NIKFontAwesomeIconFactory+iOS.h"; sourceTree = "<group>"; };
+		8BDF7CECBC028612A1BED47CC5358264 /* Pods-FileSizeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FileSizeTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97602412FB65713E23D39D21100F7A67 /* Pods_FileSize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FileSize.framework; path = "Pods-FileSize.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C522CEDD3822A6A746B51B2D4765673 /* NIKFontAwesomeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeButton.m; path = FontAwesomeIconFactory/OSX/NIKFontAwesomeButton.m; sourceTree = "<group>"; };
+		9D0FF75D9C25C70AEF0698A63AF8C7DA /* FontAwesomeIconFactory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeIconFactory.xcconfig; sourceTree = "<group>"; };
+		9D32730F96DB252F09BDBA5865EC61B2 /* Pods-FileSize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileSize.release.xcconfig"; sourceTree = "<group>"; };
+		A11180F1DFE397BF2142D0D4C7CAB5A4 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = "Font-Awesome/fonts/FontAwesome.otf"; sourceTree = "<group>"; };
+		A18FFEAE668ED8AAF351C204434124C2 /* FontAwesomeIconFactory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeIconFactory-umbrella.h"; sourceTree = "<group>"; };
+		A374AB64AAB4AD82B0631F3746AE228F /* NIKFontAwesomePathRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathRenderer.m; path = FontAwesomeIconFactory/NIKFontAwesomePathRenderer.m; sourceTree = "<group>"; };
+		A4E3388208F79177C0648128228CF535 /* NIKFontAwesomeIconFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconFactory.h; path = FontAwesomeIconFactory/NIKFontAwesomeIconFactory.h; sourceTree = "<group>"; };
+		A60D4F6524F0EA061FAB7E725BFBFBC9 /* NIKFontAwesomeIconTraits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconTraits.h; path = FontAwesomeIconFactory/NIKFontAwesomeIconTraits.h; sourceTree = "<group>"; };
+		A67995615D99891DF3B48AA1D195D946 /* NIKFontAwesomePathFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathFactory.m; path = FontAwesomeIconFactory/NIKFontAwesomePathFactory.m; sourceTree = "<group>"; };
+		A8A24E238EFFC1E830552C269E38B1D3 /* Pods-FileSizeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileSizeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE6AFB6EB82D14DA35C849968A505CAE /* Pods-FileSize-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileSize-frameworks.sh"; sourceTree = "<group>"; };
+		B02FB2035FA282B92DB2E026F0E9BC79 /* Pods-FileSizeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileSizeUITests-resources.sh"; sourceTree = "<group>"; };
+		C24D810065A7EA0FAC3021F8A962D3CC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C33E67439484B5D2B92587FD307664E7 /* Pods_FileSizeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FileSizeUITests.framework; path = "Pods-FileSizeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EFDE1C6018097C697146EEA6FD39A6 /* Pods_FileSizeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FileSizeTests.framework; path = "Pods-FileSizeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9618349FD56B5018031A349276FC33D /* FontAwesomeIconFactory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeIconFactory-dummy.m"; sourceTree = "<group>"; };
+		CAAAF1970097AB03893EA2DEDE923E1E /* Pods-FileSize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FileSize.modulemap"; sourceTree = "<group>"; };
+		CD0D33C230D475785205C229FCA5FAA9 /* Pods-FileSize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileSize-umbrella.h"; sourceTree = "<group>"; };
+		D2DFD1CF11C5668B20A9D8ACF5BB8284 /* Pods-FileSizeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileSizeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D34E9F7D4F8ADB1A22453E62A63A745F /* Pods-FileSizeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileSizeTests-resources.sh"; sourceTree = "<group>"; };
+		DACC24602F2A0405B701CFCB22A1FB8C /* Pods-FileSizeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileSizeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB3B76F9E5E629F0FB3308ADAB9942D9 /* NIKFontAwesomeIconTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconTypes.h; path = FontAwesomeIconFactory/NIKFontAwesomeIconTypes.h; sourceTree = "<group>"; };
+		DCD6FEE5AF6015E5C8388A151BD1E130 /* FontAwesomeIconFactory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeIconFactory-prefix.pch"; sourceTree = "<group>"; };
+		E3A3204A9A1198A86FD7D98CF86B2F18 /* Pods-FileSizeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileSizeTests-frameworks.sh"; sourceTree = "<group>"; };
+		E4A5DE362C410076F1B19CCEC845CCE1 /* Pods-FileSize-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileSize-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA7A877AB29BE236F0705F6D006B7522 /* Pods-FileSizeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileSizeTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE9445CA5CB9A3D91136F705D41A1838 /* Pods-FileSizeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileSizeTests-dummy.m"; sourceTree = "<group>"; };
+		F8899F8ACA8C996B5BF15A704D9C8575 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C2F8B73467477E7303884BDD598A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEB9EBC749F742379FE8CC6FDCB10DC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D5D7D3CB50C49E57FE48CE412EFD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5CFF7252B0834125C43A3E3DD67596 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EEDE4DB9F3CA96C6D7514D5C776079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18D2246E4DA1F6137B469639964052A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B358A0FB36CFE7A4CB955243F73D353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6991926ABBBE98AD15C4DDF9D079A6A9 /* ApplicationServices.framework in Frameworks */,
+				2FF5076E9781F9F48049F68D26CF0A8D /* Cocoa.framework in Frameworks */,
+				A330074674B939198FB1F40816257B9C /* CoreGraphics.framework in Frameworks */,
+				BC6975FA9985BB9A04F73AEC604B219C /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13EE42E8E89FEA6B0CB53528D69558CF /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				7CAC40424C7DF5CD6BBA6502E5339BEF /* ApplicationServices.framework */,
+				C24D810065A7EA0FAC3021F8A962D3CC /* Cocoa.framework */,
+				1FEAEAD32C34750D444F1793483C9818 /* CoreGraphics.framework */,
+				56E151901762408419F0664CFEA37FC5 /* CoreText.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		1521063717E3196F8FB8023390751FB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20FF5330BCE7611334DF18CB0AE20B01 /* FontAwesomeIconFactory */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17750C3F7B054B725604D12732101D28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A11180F1DFE397BF2142D0D4C7CAB5A4 /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20FF5330BCE7611334DF18CB0AE20B01 /* FontAwesomeIconFactory */ = {
+			isa = PBXGroup;
+			children = (
+				3753FE2466E8177399F362046F0AAE8B /* FontAwesomeIconFactory.h */,
+				2BB209AAF0F50608C00010CA67E99F20 /* NIKFontAwesomeButton.h */,
+				9C522CEDD3822A6A746B51B2D4765673 /* NIKFontAwesomeButton.m */,
+				629EBCC22B34C0FAC27E40AC4164BFDA /* NIKFontAwesomeIcon.h */,
+				A4E3388208F79177C0648128228CF535 /* NIKFontAwesomeIconFactory.h */,
+				23ECE71AED4864FB316D0B17C847DF4C /* NIKFontAwesomeIconFactory.m */,
+				87CB410FBD5973CA60031A76EF83D9E0 /* NIKFontAwesomeIconFactory+iOS.h */,
+				137682F99740660B1254698EA99C64EC /* NIKFontAwesomeIconFactory+OSX.h */,
+				A60D4F6524F0EA061FAB7E725BFBFBC9 /* NIKFontAwesomeIconTraits.h */,
+				DB3B76F9E5E629F0FB3308ADAB9942D9 /* NIKFontAwesomeIconTypes.h */,
+				77F2FA5B3BA101BC5755AE55CCC9F504 /* NIKFontAwesomeImageView.h */,
+				0BD44DB101755F8969A89E955B2FE53E /* NIKFontAwesomeImageView.m */,
+				7EEB1308524FD068A2EFE2DB888B8C06 /* NIKFontAwesomePathFactory.h */,
+				A67995615D99891DF3B48AA1D195D946 /* NIKFontAwesomePathFactory.m */,
+				30292CB8353F0716EA3C6AC7B8FC44EC /* NIKFontAwesomePathRenderer.h */,
+				A374AB64AAB4AD82B0631F3746AE228F /* NIKFontAwesomePathRenderer.m */,
+				17750C3F7B054B725604D12732101D28 /* Resources */,
+				26CC9DF8D98F5273A3A27F613984F00E /* Support Files */,
+			);
+			name = FontAwesomeIconFactory;
+			path = FontAwesomeIconFactory;
+			sourceTree = "<group>";
+		};
+		26CC9DF8D98F5273A3A27F613984F00E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A34EDB187E1BB06E86734AB9CA2B3D /* FontAwesomeIconFactory.modulemap */,
+				9D0FF75D9C25C70AEF0698A63AF8C7DA /* FontAwesomeIconFactory.xcconfig */,
+				C9618349FD56B5018031A349276FC33D /* FontAwesomeIconFactory-dummy.m */,
+				DCD6FEE5AF6015E5C8388A151BD1E130 /* FontAwesomeIconFactory-prefix.pch */,
+				A18FFEAE668ED8AAF351C204434124C2 /* FontAwesomeIconFactory-umbrella.h */,
+				2228D18CE3867D19C6641365172E5F6E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesomeIconFactory";
+			sourceTree = "<group>";
+		};
+		2C1523F9F9BF9D632A1C3ECCB3652512 /* Pods-FileSizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54D50921384D6AE8BA9D6A98C20B5A8A /* Info.plist */,
+				139178AA88A54BD6A8750971FABF8EBA /* Pods-FileSizeUITests.modulemap */,
+				72999B616D4AFA906788EA4BA3F1B66E /* Pods-FileSizeUITests-acknowledgements.markdown */,
+				D2DFD1CF11C5668B20A9D8ACF5BB8284 /* Pods-FileSizeUITests-acknowledgements.plist */,
+				17457FD4B72B0C813FA830DA57CC6EA3 /* Pods-FileSizeUITests-dummy.m */,
+				37D56870BCE5D3ED581DC43E2766DA17 /* Pods-FileSizeUITests-frameworks.sh */,
+				B02FB2035FA282B92DB2E026F0E9BC79 /* Pods-FileSizeUITests-resources.sh */,
+				5521D059E6F4E0C2929A9C47AB0CA9B1 /* Pods-FileSizeUITests-umbrella.h */,
+				DACC24602F2A0405B701CFCB22A1FB8C /* Pods-FileSizeUITests.debug.xcconfig */,
+				A8A24E238EFFC1E830552C269E38B1D3 /* Pods-FileSizeUITests.release.xcconfig */,
+			);
+			name = "Pods-FileSizeUITests";
+			path = "Target Support Files/Pods-FileSizeUITests";
+			sourceTree = "<group>";
+		};
+		2DDFB7A8F27074A41DBB17EBE9E1365A /* Pods-FileSize */ = {
+			isa = PBXGroup;
+			children = (
+				61C7844E28BD8C09A99747E0307604F6 /* Info.plist */,
+				CAAAF1970097AB03893EA2DEDE923E1E /* Pods-FileSize.modulemap */,
+				130102D4535A2095C0EFF38A442C93BE /* Pods-FileSize-acknowledgements.markdown */,
+				E4A5DE362C410076F1B19CCEC845CCE1 /* Pods-FileSize-acknowledgements.plist */,
+				2D40F38464C0A6DBBCE9CACAA08394AC /* Pods-FileSize-dummy.m */,
+				AE6AFB6EB82D14DA35C849968A505CAE /* Pods-FileSize-frameworks.sh */,
+				216B4B48F9CB369EE56FDC32B9588CF7 /* Pods-FileSize-resources.sh */,
+				CD0D33C230D475785205C229FCA5FAA9 /* Pods-FileSize-umbrella.h */,
+				14F3817F2624C58081E9543A55360E51 /* Pods-FileSize.debug.xcconfig */,
+				9D32730F96DB252F09BDBA5865EC61B2 /* Pods-FileSize.release.xcconfig */,
+			);
+			name = "Pods-FileSize";
+			path = "Target Support Files/Pods-FileSize";
+			sourceTree = "<group>";
+		};
+		668091139C6BC9FF5D1000FF633B2A9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06AB66EDBC1D0C308F6BEF162B1D8D6E /* FontAwesomeIconFactory.framework */,
+				97602412FB65713E23D39D21100F7A67 /* Pods_FileSize.framework */,
+				C4EFDE1C6018097C697146EEA6FD39A6 /* Pods_FileSizeTests.framework */,
+				C33E67439484B5D2B92587FD307664E7 /* Pods_FileSizeUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F91D0E18968A6ACE8ED585167B57770 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DDFB7A8F27074A41DBB17EBE9E1365A /* Pods-FileSize */,
+				DB265D1A95C3BA711249A9164318F17C /* Pods-FileSizeTests */,
+				2C1523F9F9BF9D632A1C3ECCB3652512 /* Pods-FileSizeUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CD75D5B60FCA72FBF7F9C770460B2C26 /* Frameworks */,
+				1521063717E3196F8FB8023390751FB8 /* Pods */,
+				668091139C6BC9FF5D1000FF633B2A9B /* Products */,
+				6F91D0E18968A6ACE8ED585167B57770 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CD75D5B60FCA72FBF7F9C770460B2C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13EE42E8E89FEA6B0CB53528D69558CF /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB265D1A95C3BA711249A9164318F17C /* Pods-FileSizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8899F8ACA8C996B5BF15A704D9C8575 /* Info.plist */,
+				8BDF7CECBC028612A1BED47CC5358264 /* Pods-FileSizeTests.modulemap */,
+				691BB36D819FF58D6933A49BDFCB2270 /* Pods-FileSizeTests-acknowledgements.markdown */,
+				690E1F4A4B1FDD84C1FAAC86302DC9E0 /* Pods-FileSizeTests-acknowledgements.plist */,
+				EE9445CA5CB9A3D91136F705D41A1838 /* Pods-FileSizeTests-dummy.m */,
+				E3A3204A9A1198A86FD7D98CF86B2F18 /* Pods-FileSizeTests-frameworks.sh */,
+				D34E9F7D4F8ADB1A22453E62A63A745F /* Pods-FileSizeTests-resources.sh */,
+				6AE27587D4F8BBE2427831E30CCB6D0C /* Pods-FileSizeTests-umbrella.h */,
+				5A84FD9339368BE078BA25B02C04669B /* Pods-FileSizeTests.debug.xcconfig */,
+				EA7A877AB29BE236F0705F6D006B7522 /* Pods-FileSizeTests.release.xcconfig */,
+			);
+			name = "Pods-FileSizeTests";
+			path = "Target Support Files/Pods-FileSizeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19834039162065E6C533ECD388926DE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE6A9ADB8D52795E8C085D8E6179553 /* Pods-FileSizeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAAD86CEFF0252A18D91435BC9F039F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31C1A8F42CB9499AA1EB10C49F435C7 /* Pods-FileSizeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB28B55A114E55F63ECC5DA21070C21B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DD29B060E4AF36F3F6987BD34A70F5 /* FontAwesomeIconFactory-umbrella.h in Headers */,
+				B6C7BF9DDAE5602F6F96A72A79472D56 /* FontAwesomeIconFactory.h in Headers */,
+				B645B311C74E5F305A1403ABF0836005 /* NIKFontAwesomeButton.h in Headers */,
+				23265462C4B94A142F4536103F113A9F /* NIKFontAwesomeIcon.h in Headers */,
+				885ECD52B1E6994FAA4AA1EC1E5E13D1 /* NIKFontAwesomeIconFactory+iOS.h in Headers */,
+				07B039D7C05445DFFBAD4949D434659D /* NIKFontAwesomeIconFactory+OSX.h in Headers */,
+				22B3B59EE7ABFC767DA950EA0788C730 /* NIKFontAwesomeIconFactory.h in Headers */,
+				A2A1525E8AF63B535B2325E391751115 /* NIKFontAwesomeIconTraits.h in Headers */,
+				B7B04EE42F7C4A4736D28C9BC4007D10 /* NIKFontAwesomeIconTypes.h in Headers */,
+				084C52EE36FBB19195115D9E7D5F3086 /* NIKFontAwesomeImageView.h in Headers */,
+				F4D5D7BF33B95E758DECB12634506795 /* NIKFontAwesomePathFactory.h in Headers */,
+				E87533C66409ADF783C64B2A48016AE6 /* NIKFontAwesomePathRenderer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C5F24444DA3308E4FC6A2DB1F2499A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FF80A48D274914D538C7EC2F4BCA9 /* Pods-FileSize-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0262D247D75FA64F450A78B8F38FE47D /* FontAwesomeIconFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390236A8C9DB120A4247FF71BCA985B8 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactory" */;
+			buildPhases = (
+				53A23356BA192B1E5AC0D9ABB94F13E5 /* Sources */,
+				7B358A0FB36CFE7A4CB955243F73D353 /* Frameworks */,
+				AB28B55A114E55F63ECC5DA21070C21B /* Headers */,
+				C01C9EFFCF6D1F6FC7F30A833D914E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeIconFactory;
+			productName = FontAwesomeIconFactory;
+			productReference = 06AB66EDBC1D0C308F6BEF162B1D8D6E /* FontAwesomeIconFactory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F29C32459FF190321BBF01B71340533 /* Pods-FileSizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E976BBCCB88CEE9E864D0D0CFF438973 /* Build configuration list for PBXNativeTarget "Pods-FileSizeTests" */;
+			buildPhases = (
+				50A7FCEF19DA48CADB77C1042E2DC82D /* Sources */,
+				06D5D7D3CB50C49E57FE48CE412EFD76 /* Frameworks */,
+				19834039162065E6C533ECD388926DE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15945B19049DE1A074779A10C133D182 /* PBXTargetDependency */,
+			);
+			name = "Pods-FileSizeTests";
+			productName = "Pods-FileSizeTests";
+			productReference = C4EFDE1C6018097C697146EEA6FD39A6 /* Pods_FileSizeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5688C9127C5AC8BC8B1A2E565DF7B88E /* Pods-FileSizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3EF4F2510CEAC936FDE0038483BF3E /* Build configuration list for PBXNativeTarget "Pods-FileSizeUITests" */;
+			buildPhases = (
+				E0AFD785B5C7007FA9109C203BA7E239 /* Sources */,
+				00C2F8B73467477E7303884BDD598A52 /* Frameworks */,
+				6FAAD86CEFF0252A18D91435BC9F039F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D67F68609EAC9F974306EFCBEFFDD6F /* PBXTargetDependency */,
+			);
+			name = "Pods-FileSizeUITests";
+			productName = "Pods-FileSizeUITests";
+			productReference = C33E67439484B5D2B92587FD307664E7 /* Pods_FileSizeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71506C459209509BA8C61EE8F319B7B1 /* Pods-FileSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3420C0C6CCA5D6F6252D5652F42F853 /* Build configuration list for PBXNativeTarget "Pods-FileSize" */;
+			buildPhases = (
+				5E7293DAF8A5682A44ACEAC660E48C5D /* Sources */,
+				63EEDE4DB9F3CA96C6D7514D5C776079 /* Frameworks */,
+				D1C5F24444DA3308E4FC6A2DB1F2499A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4151B7920616FE39E8A7949B71AB51F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-FileSize";
+			productName = "Pods-FileSize";
+			productReference = 97602412FB65713E23D39D21100F7A67 /* Pods_FileSize.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 668091139C6BC9FF5D1000FF633B2A9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0262D247D75FA64F450A78B8F38FE47D /* FontAwesomeIconFactory */,
+				71506C459209509BA8C61EE8F319B7B1 /* Pods-FileSize */,
+				1F29C32459FF190321BBF01B71340533 /* Pods-FileSizeTests */,
+				5688C9127C5AC8BC8B1A2E565DF7B88E /* Pods-FileSizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01C9EFFCF6D1F6FC7F30A833D914E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4014C926463760932DCE6C3B799F05 /* FontAwesome.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A7FCEF19DA48CADB77C1042E2DC82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC76B14746C377E84DB36BBEEE223D84 /* Pods-FileSizeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A23356BA192B1E5AC0D9ABB94F13E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E5759346259174F2A2BBC137D9D2A5 /* FontAwesomeIconFactory-dummy.m in Sources */,
+				37B91B9CDBA5FCCD18A40F6AF54A3359 /* NIKFontAwesomeButton.m in Sources */,
+				8D4BEE1BB1968A681EF2E1986C9F6118 /* NIKFontAwesomeIconFactory.m in Sources */,
+				25FA3F3E7C400423BC45D6332DEFA98A /* NIKFontAwesomeImageView.m in Sources */,
+				8F11A24FB6FE82E62DADF02D8AD54D0F /* NIKFontAwesomePathFactory.m in Sources */,
+				19605C4E2AE4047084A48A5917826CD5 /* NIKFontAwesomePathRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7293DAF8A5682A44ACEAC660E48C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5D866B24E57E5E4DFBC00F8B0902BE /* Pods-FileSize-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AFD785B5C7007FA9109C203BA7E239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58626CFF18D84EC4F63F34D4ED2746F0 /* Pods-FileSizeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15945B19049DE1A074779A10C133D182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FileSize";
+			target = 71506C459209509BA8C61EE8F319B7B1 /* Pods-FileSize */;
+			targetProxy = 3D194A1BEDB5A1C5E5DF82E73E63506E /* PBXContainerItemProxy */;
+		};
+		3D67F68609EAC9F974306EFCBEFFDD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FileSize";
+			target = 71506C459209509BA8C61EE8F319B7B1 /* Pods-FileSize */;
+			targetProxy = 90A70C49E869CDAC52073A220A375612 /* PBXContainerItemProxy */;
+		};
+		4151B7920616FE39E8A7949B71AB51F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesomeIconFactory;
+			target = 0262D247D75FA64F450A78B8F38FE47D /* FontAwesomeIconFactory */;
+			targetProxy = 34D37B0FAE9B8EB787988B0FD13C7D28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20866A00E0EE2875563A69C723D75B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7A877AB29BE236F0705F6D006B7522 /* Pods-FileSizeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FileSizeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileSizeTests/Pods-FileSizeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22D90A03612E54580274C916ABD9EFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A84FD9339368BE078BA25B02C04669B /* Pods-FileSizeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FileSizeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileSizeTests/Pods-FileSizeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2865D6CA54276FC287AEEA5628D514EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		300B900F877F1461055824D1FCCE99D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACC24602F2A0405B701CFCB22A1FB8C /* Pods-FileSizeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FileSizeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileSizeUITests/Pods-FileSizeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FFE7E03A12EE3844F8DAA0EF1795667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D32730F96DB252F09BDBA5865EC61B2 /* Pods-FileSize.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FileSize/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileSize/Pods-FileSize.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50653B21C2DA5607F30E33A3854BD2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0FF75D9C25C70AEF0698A63AF8C7DA /* FontAwesomeIconFactory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeIconFactory/FontAwesomeIconFactory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeIconFactory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeIconFactory/FontAwesomeIconFactory.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesomeIconFactory;
+				PRODUCT_NAME = FontAwesomeIconFactory;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72C42E2822CD8B5C2B310E858750637B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0FF75D9C25C70AEF0698A63AF8C7DA /* FontAwesomeIconFactory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeIconFactory/FontAwesomeIconFactory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeIconFactory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeIconFactory/FontAwesomeIconFactory.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesomeIconFactory;
+				PRODUCT_NAME = FontAwesomeIconFactory;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBB19A17640F01CDD1B3EE1BAA23A76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A24E238EFFC1E830552C269E38B1D3 /* Pods-FileSizeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FileSizeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileSizeUITests/Pods-FileSizeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE5BFE8D01810C31013EFB6520C87162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D1163D1922CA2FBA3F8A8178C56F544B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F3817F2624C58081E9543A55360E51 /* Pods-FileSize.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FileSize/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileSize/Pods-FileSize.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5BFE8D01810C31013EFB6520C87162 /* Debug */,
+				2865D6CA54276FC287AEEA5628D514EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390236A8C9DB120A4247FF71BCA985B8 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C42E2822CD8B5C2B310E858750637B /* Debug */,
+				50653B21C2DA5607F30E33A3854BD2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E976BBCCB88CEE9E864D0D0CFF438973 /* Build configuration list for PBXNativeTarget "Pods-FileSizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D90A03612E54580274C916ABD9EFDC /* Debug */,
+				20866A00E0EE2875563A69C723D75B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3EF4F2510CEAC936FDE0038483BF3E /* Build configuration list for PBXNativeTarget "Pods-FileSizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300B900F877F1461055824D1FCCE99D9 /* Debug */,
+				BBB19A17640F01CDD1B3EE1BAA23A76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3420C0C6CCA5D6F6252D5652F42F853 /* Build configuration list for PBXNativeTarget "Pods-FileSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1163D1922CA2FBA3F8A8178C56F544B /* Debug */,
+				3FFE7E03A12EE3844F8DAA0EF1795667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

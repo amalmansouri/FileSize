@@ -1,0 +1,16 @@
+PODS:
+  - FontAwesomeIconFactory (3.0)
+
+DEPENDENCIES:
+  - FontAwesomeIconFactory
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FontAwesomeIconFactory
+
+SPEC CHECKSUMS:
+  FontAwesomeIconFactory: dfc89a126ff158d3a642aeeb265eaa9b179ad496
+
+PODFILE CHECKSUM: 619e629cf8cdc19305973bf41a705bfb4d185c0d
+
+COCOAPODS: 1.5.3
